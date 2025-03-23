@@ -3,7 +3,8 @@
 .holder{
 	display: flex;
 	background-color: blue;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 .holder>div{
 	margin: 10px;
